@@ -1,0 +1,23 @@
+program main;
+var i,n,result;
+procedure factorial(num);
+begin
+	if num=0 then
+		result:=1
+	else
+	begin
+		call factorial(num-1);
+		result:=result*num
+	end
+end
+begin
+	i:=0;
+	result:=1;
+	read(n);
+	while i<=n do
+	begin
+		call factorial(i);
+		write(result);
+		i:=i+1
+	end
+end

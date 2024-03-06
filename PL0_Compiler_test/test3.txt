@@ -1,0 +1,22 @@
+program DecimalToBinary;
+const m:=2;
+var decimal,res;
+procedure D2B(num);
+var temp;
+procedure Mod(num,p);
+begin
+    temp:=num/p;
+    res:=num-temp*p;
+    write(res)
+end
+begin
+    if num>0 then
+    begin
+        call D2B(num/2);
+        call Mod(num,m)
+    end
+end
+begin
+    read(decimal);
+    call D2B(decimal)
+end

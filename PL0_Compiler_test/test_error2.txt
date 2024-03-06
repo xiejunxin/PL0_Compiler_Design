@@ -1,0 +1,21 @@
+progam xi
+const a 10 a:=o,a:=12;
+var b c
+procedure p(x,y);
+begin
+	c:=b+a;
+	write(c;
+	c:x+y;
+	write(c)
+end
+begin
+	read(b);
+	while b 0 do
+	begin
+		if a>b 
+		call p(1,);
+		read(c+1);
+		write(2*c);
+		read(b)
+    end
+end
